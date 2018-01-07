@@ -51,18 +51,18 @@ nav a {
   display: flex;
   border: 1px solid black;
   margin: 0 40px 78px 50px;
-  width: 1320px;
+  width: 1300px;
   padding-top: 116px;
 }
 
-#left {
-  display: flex;
-  flex-direction: column;
+.left.one {
   border: 1px solid black;
+  height: 20px;
 }
 
 .column.large {
   display: flex;
+  flex-direction: column;
   width: 630px;
   border: 1px solid black;
 }
