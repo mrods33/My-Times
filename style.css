@@ -47,34 +47,31 @@ nav a {
 
 /* Content */
 
+div {
+  border: 1px solid black;
+}
+
 .main {
   display: flex;
-  border: 1px solid black;
-  margin: 0 40px 78px 50px;
-  width: 1300px;
+  margin: 0 auto 78px auto;
+  width: 1232px;
   padding-top: 116px;
 }
 
-.left.one {
-  border: 1px solid black;
-  height: 20px;
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
-  display: flex;
-  flex-direction: column;
   width: 630px;
-  border: 1px solid black;
 }
 
 .column.medium {
-  display: flex;
   width: 300px;
-  border: 1px solid black;
 }
 
 .column.small {
-  display: flex;
   width: 240px;
-  border: 1px solid black;
 }
