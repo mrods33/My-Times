@@ -79,9 +79,6 @@ div {
 /* Images */
 
 .image-content {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: start; */
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -113,14 +110,6 @@ div {
   margin-top: 16px;
 }
 
-/* .image-text {
-  font-family: Georgia;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-} */
-
 .image-content.fish span {
   font-size: 40px;
 }
@@ -128,9 +117,3 @@ div {
 .first-story {
   width: 630px;
 }
-
-/* .story {
-  font-family: Georgia;
-  font-size: 17px;
-  color: black;
-} */
