@@ -23,7 +23,6 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  border: 1px solid black;
 }
 
 .logo span {
@@ -45,11 +44,7 @@ nav a {
   color: black;
 }
 
-/* Content */
-
-div {
-  border: 1px solid black;
-}
+/* Main Content */
 
 .main {
   display: flex;
@@ -96,7 +91,6 @@ div {
 .image-content.earth {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   height: 300px;
-  margin-top: 16px;
 }
 
 .image-content.camera {
@@ -114,6 +108,28 @@ div {
   font-size: 40px;
 }
 
+/* Text */
+
 .first-story {
   width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stories {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.story.earth {
+  margin-right: 30px;
+}
+
+.story.cat {
+  width: 300px;
+}
+
+.text-content.one {
+  margin-bottom: 100px;
 }
