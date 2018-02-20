@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
 }
 
 /* Header */
@@ -84,10 +86,6 @@ nav a {
   justify-content: center;
 }
 
-.image-content span {
-
-}
-
 .image-content.fish {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   text-align: left;
@@ -111,11 +109,24 @@ nav a {
   margin-top: 16px;
 }
 
-.image-content.fish span {
+.first-story .image-content.fish span {
   font-size: 40px;
+  margin-left: 20px;
 }
 
 /* Text */
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p {
+  margin-top: 16px;
+}
 
 .first-story {
   width: 630px;
@@ -125,8 +136,14 @@ nav a {
 
 .stories {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   margin-top: 20px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
 .story.earth {
@@ -138,7 +155,7 @@ nav a {
 }
 
 .text-content.one {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 .story h3 {
